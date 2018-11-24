@@ -30,4 +30,59 @@ li a{
   color:#dbe4ee;
 }
 
+.page-reviews-container {
+  position: relative;
+ 
+}
+
+.page-reviews-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-reviews-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3e7cb1;
+}
+
+.page-reviews-container:hover .page-reviews-overlay {
+  opacity: 1;
+}
+
+.page-reviews-text {
+  color: #dbe4ee;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.checked {
+  color: orange;
+}
+
+.page-reviews-stars{
+ display: flex;
+ position: absolute;
+ margin: 4px 4px;
+ left: 0px;
+ bottom: 0px;
+
+ 
+ 
+  
+}
+
 
