@@ -19,6 +19,7 @@ li a{
   margin-top: 75px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom:  75px;
 }
 
 .page-reviews-h1 {
@@ -39,6 +40,7 @@ li a{
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 10%
 }
 
 .page-reviews-overlay{
@@ -52,6 +54,7 @@ li a{
   opacity: 0;
   transition: .5s ease;
   background-color: #3e7cb1;
+  border-radius: 10%
 }
 
 .page-reviews-container:hover .page-reviews-overlay {
@@ -79,10 +82,6 @@ li a{
  margin: 4px 4px;
  left: 0px;
  bottom: 0px;
-
- 
- 
-  
 }
 
 
