@@ -18,6 +18,15 @@ li a{
   color: #f17300;
   }
 
+  .page-homepage-row-one {
+    height: 50px;
+  }
+
   .page-homepage-row-two {
+    height: 70px;
+    color: #dbe4ee;
+  }
+
+  .page-homepage-row-three {
     display: flex;
   }
