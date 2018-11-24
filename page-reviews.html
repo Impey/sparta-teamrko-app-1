@@ -22,52 +22,122 @@
   <script src="main.js"></script>
 </head>
 
-<body>
-  <header>
-    <nav class="navbar navbar-light" style="background-color: #054a91;">
-      <div class=" container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-            aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><strong>Team RKO</strong></a>
-        </div>
+<header>
+  <div class="row">
+    <div class="col-lg-12">
+      <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #054a91;">
+        <div class=" container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong>Team RKO</strong></a>
+          </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
 
-          </ul>
-          <form class="navbar-form navbar-left">
+            </ul>
+            <form class="navbar-form navbar-left">
+              <!--To add content on left of nav bar add here-->
+            </form>
+            <!--To add content on right of nav bar add here-->
+            <ul class="nav navbar-nav navbar-right">
+              <!--Anything you want added to drop down meun add here abovve the divider class-->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Opitions<span class="caret"></span></a>
+                <ul class="dropdown-menu" style="background-color:#054a91">
+                  <li><a href="#">Genres</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Sign out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+</header>
 
-          </form>
-          <ul class="nav navbar-nav navbar-right">
+<body class="page-reviews-body">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-reviews-h1">Reviews</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-5">
 
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Opitions<span class="caret"></span></a>
-              <ul class="dropdown-menu" style="background-color:#054a91">
-                <li><a href="#">Genres</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Sign out</a></li>
-              </ul>
-            </li>
+      <img src="https://www.placecage.com/500/500" alt="">
+    </div>
+    <div class="col-lg-7 page-review-desc">
+      <h2>Horror</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae assumenda, deserunt id voluptatibus
+        consequuntur delectus et tempora blanditiis magnam aut architecto possimus magni. Et laudantium nulla dolores
+        illum ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dignissimos aut dolorum
+        repellat, distinctio nemo ex nam architecto cum. Molestias quae itaque perferendis ipsam debitis voluptate fuga
+        aut aspernatur qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam beatae, assumenda soluta
+        saepe tenetur vitae voluptates maiores tempore id sunt asperiores laborum excepturi veniam ab ullam a
+        exercitationem laudantium qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi facere
+        autem aliquid eligendi, quisquam animi a aspernatur! Accusamus tenetur ad et ea facere, provident ipsam
+        blanditiis inventore fugit odio.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-7 page-review-desc">
+      <h2>Comedy</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae assumenda, deserunt id voluptatibus
+        consequuntur delectus et tempora blanditiis magnam aut architecto possimus magni. Et laudantium nulla dolores
+        illum ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dignissimos aut dolorum
+        repellat, distinctio nemo ex nam architecto cum. Molestias quae itaque perferendis ipsam debitis voluptate fuga
+        aut aspernatur qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam beatae, assumenda soluta
+        saepe tenetur vitae voluptates maiores tempore id sunt asperiores laborum excepturi veniam ab ullam a
+        exercitationem laudantium qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi facere
+        autem aliquid eligendi, quisquam animi a aspernatur! Accusamus tenetur ad et ea facere, provident ipsam
+        blanditiis inventore fugit odio.</p>
+    </div>
+    <div class="col-lg-5 page-review-desc">
+      <img src="https://www.placecage.com/500/500" alt="">
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-5">
+
+      <img src="https://www.placecage.com/500/500" alt="">
+    </div>
+    <div class="col-lg-7 page-review-desc">
+      <h2>Action</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae assumenda, deserunt id voluptatibus
+        consequuntur delectus et tempora blanditiis magnam aut architecto possimus magni. Et laudantium nulla dolores
+        illum ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dignissimos aut dolorum
+        repellat, distinctio nemo ex nam architecto cum. Molestias quae itaque perferendis ipsam debitis voluptate fuga
+        aut aspernatur qui! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam beatae, assumenda soluta
+        saepe tenetur vitae voluptates maiores tempore id sunt asperiores laborum excepturi veniam ab ullam a
+        exercitationem laudantium qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi facere
+        autem aliquid eligendi, quisquam animi a aspernatur! Accusamus tenetur ad et ea facere, provident ipsam
+        blanditiis inventore fugit odio.</p>
+    </div>
+  </div>
 
 
-          </ul>
 
-
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
-  </header>
 
 </body>
 

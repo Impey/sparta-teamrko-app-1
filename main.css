@@ -13,3 +13,21 @@ li a{
 .navbar-brand:hover {
   color: #f17300;
 }
+
+.page-reviews-body {
+  background-color: #81a4cd;
+  margin-top: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.page-reviews-h1 {
+  color: #dbe4ee;
+}
+
+.page-review-desc {
+  margin-top: 75px;
+  color:#dbe4ee;
+}
+
+
