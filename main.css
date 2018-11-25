@@ -16,19 +16,35 @@ li a{
 
   body {
     background-color: #81a4cd;
+    color: #dbe4ee;
   }
 
   h1 {
-    display: flex;
-    flex-direction: column;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .button {
     border-radius: 50%;
+    margin-left: 10px;
+    background-color: #054a91;  
+    border-color: #054a91; 
+    color: #81a4cd;
+    padding: 15px;
   }
 
   .title {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .titleimg:hover {
+    transform: scale(1.5);
   }
