@@ -29,12 +29,11 @@ li a{
   }
 
   .button {
-    border-radius: 50%;
     margin-left: 10px;
     background-color: #054a91;  
-    border-color: #054a91; 
     color: #81a4cd;
     padding: 15px;
+    border-width: 0px;
   }
 
   .title {
