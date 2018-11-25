@@ -18,6 +18,9 @@ li a{
   color: #f17300;
   }
 
+  .contacts-headers{
+    text-align: center;
+  }
   .contacts-card {
     overflow: hidden;
     position: relative;
@@ -37,9 +40,37 @@ li a{
     border-radius: 50%;
     border: 5px solid #3e7cb1ff;
   }
+  .contacts-row-four{
+    display: flex;
+    justify-content: flex-end;
+  }
 
   .contacts-avatar {
     position: relative;
     margin-top: 15px;
     z-index: 100;
   }
+
+
+  .button .btn {
+    background-color: #f17300;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+  }
+
+
+    .contacts-normal-btn {
+    display: flex;  
+    justify-content: center;
+    background: #284c79 none repeat scroll 0 0;
+    border-width: 2px;
+    border-color: #C9B79C;
+    border-style:inset;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color:  #C9B79C;
+    }
