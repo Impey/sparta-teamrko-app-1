@@ -1,0 +1,34 @@
+li a{
+  color: #dbe4ee;
+  }
+   
+  .dropdown li a{
+  color: #dbe4ee;
+  }
+   
+  .navbar-brand {
+  color: #dbe4ee
+  }
+   
+  .navbar-brand:hover {
+  color: #f17300;
+  }
+
+  body {
+    background-color: #81a4cd;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    border-radius: 50%;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
