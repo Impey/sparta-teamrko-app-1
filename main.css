@@ -1,3 +1,7 @@
+body {
+  background-color: #81A4CD;
+}
+
 li a{
   color: #dbe4ee;
   }
@@ -12,4 +16,30 @@ li a{
    
   .navbar-brand:hover {
   color: #f17300;
+  }
+
+  .contacts-card {
+    overflow: hidden;
+    position: relative;
+    border: 3px solid #f17300;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    background-color: #284c79; /* new blue tint added here*/
+    color: rgb(136, 172, 217);
+  }
+ 
+  .contacts-avatar img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #3e7cb1ff;
+  }
+
+  .contacts-avatar {
+    position: relative;
+    margin-top: 15px;
+    z-index: 100;
   }
