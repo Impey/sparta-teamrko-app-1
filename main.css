@@ -1,3 +1,4 @@
+/* NAVBAR */
 li a{
   color: #dbe4ee;
   }
@@ -13,6 +14,8 @@ li a{
   .navbar-brand:hover {
   color: #f17300;
   }
+
+/* ALL PAGES */
 
   body {
     background-color: #81a4cd;
