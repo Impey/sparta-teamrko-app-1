@@ -1,0 +1,104 @@
+li a{
+  color: #dbe4ee;
+}
+
+.dropdown li a{
+  color: #dbe4ee;
+}
+
+.navbar-brand {
+  color: #dbe4ee
+}
+
+.navbar-brand:hover {
+  color: #f17300;
+}
+
+.page-reviews-body {
+  background-color: rgba(129,164,205, .6);
+  width: 100%;
+  height: 100%;
+  
+ 
+}
+
+.page-reviews-h1 {
+  color: #dbe4ee;
+  text-align: center;
+  margin-top: 75px;
+  font-size: 50px;
+}
+
+.page-review-desc {
+  margin-top: 75px;
+  color:#dbe4ee;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  
+}
+
+.page-reviews-container {
+  position: relative;
+ 
+}
+
+.page-reviews-image {
+  display: block;
+  width: 100%;
+  height: 300px;
+  height: auto;
+  border-radius: 10%;
+  
+}
+
+.page-reviews-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3e7cb1;
+  border-radius: 10%
+}
+
+.page-reviews-container:hover .page-reviews-overlay {
+  opacity: .8;
+}
+
+.page-reviews-text {
+  color: #dbe4ee;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.checked {
+  color: orange;
+}
+
+.page-reviews-stars{
+ display: flex;
+ position: absolute;
+ margin: 4px 4px;
+ left: 0px;
+ bottom: 0px;
+}
+
+html { 
+  background: url(assets/maxresdefault.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
