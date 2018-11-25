@@ -37,6 +37,16 @@ li a {
   right: -20%;
 }
 
-/* .carousel-indicators {
-  height: -150%;
-} */
+/* homepage footer properties */
+.page-homepage-footer {
+  text-align: center;
+  background-color: #f17300;
+}
+
+.page-homepage-row-four {
+  height: 30px;
+}
+
+.page-homepage-row-five {
+  height: 10px;
+}
