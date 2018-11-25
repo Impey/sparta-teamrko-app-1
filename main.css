@@ -53,12 +53,9 @@ li a {
 }
 
 /* thumbnails hover */
-.thumbnail:hover {
-  position:relative;
-  top:-25px;
-  left:-35px;
-  width:500px;
-  height:auto;
-  display:block;
-  z-index:999;
+.grow { 
+  transition: all .2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
 }
