@@ -84,3 +84,79 @@ button:hover {
     width: 100%;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four columns of equal width */
+.columns {
+  float: left;
+  width: 25%;
+  padding: 8px;
+}
+
+.page-subPage-pricing {
+
+
+  padding: 16px;
+  border:  2px solid #054a91;
+
+
+} 
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 #054a91;
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #054a91;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  color: #054a91;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #dbe4ee;
+  font-size: 20px;
+
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: #dbe4ee;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+      width: 100%;
+  }
+}
