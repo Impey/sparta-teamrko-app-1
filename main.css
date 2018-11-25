@@ -27,6 +27,7 @@ li a {
 }
 .page-homepage-row-three {
   display: flex;
+  justify-content: space-between;
 }
 
 /* homepage carousel left & right properties */
