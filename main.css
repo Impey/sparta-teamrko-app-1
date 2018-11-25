@@ -16,20 +16,22 @@ li a{
 
 .page-reviews-body {
   background-color: rgba(129,164,205, .6);
-  margin-top: 75px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom:  75px;
-  border-radius: 2%;
+  
+ 
 }
 
 .page-reviews-h1 {
   color: #dbe4ee;
+  text-align: center;
+  margin-top: 75px;
 }
 
 .page-review-desc {
   margin-top: 75px;
   color:#dbe4ee;
+  padding-left: 50px;
+  padding-right: 50px;
+  
 }
 
 .page-reviews-container {
@@ -40,6 +42,7 @@ li a{
 .page-reviews-image {
   display: block;
   width: 100%;
+  height: 300px;
   height: auto;
   border-radius: 10%
 }
@@ -59,7 +62,7 @@ li a{
 }
 
 .page-reviews-container:hover .page-reviews-overlay {
-  opacity: 1;
+  opacity: .8;
 }
 
 .page-reviews-text {
@@ -86,7 +89,7 @@ li a{
 }
 
 html { 
-  background: url(https://www.placecage.com/500/500) no-repeat center center fixed; 
+  background: url(assets/maxresdefault.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
