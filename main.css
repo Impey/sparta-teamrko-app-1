@@ -51,3 +51,14 @@ li a {
 .page-homepage-row-five {
   height: 10px;
 }
+
+/* thumbnails hover */
+.thumbnail:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
