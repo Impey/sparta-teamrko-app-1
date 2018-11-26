@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contacts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="../contacts.css" />
+
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <!-- PAGE HOMEPAGE NAVBAR -->
+  <nav class="navbar navbar-light" style="background-color: #054a91;">
+    <div class=" container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><strong>Team RKO</strong></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <!--To add content on left of nav bar add here-->
+
+        <!--To add content on right of nav bar add here-->
+        <ul class="nav navbar-nav navbar-right">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <!--Anything you want added to drop down meun add here abovve the divider class-->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opitions<span
+                class="caret"></span></a>
+            <ul class="dropdown-menu" style="background-color:#054a91">
+              <li><a href="#">Genres</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- contact details row 1-->
+  <div class="container">
+    <div class="row contacts-row-one">
+      <h1 class="contacts-headers">
+        Contacts
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 contacts-row-two">
+        <div class="contacts-card">
+          <div class="contacts-avatar">
+            <img src="https://ui-avatars.com/api/?name=R&background=F17300&color=054a91" alt="initials for raiyan" />
+          </div>
+          <div class="content">
+            <p>Web Developer <br><a href="https://github.com/raiyning" class="contacts-links">
+                github.com/raiyning</a></p>
+            <p><button type="button" class="btn btn-warning">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 contacts-row-two">
+        <div class="contacts-card">
+          <div class="contacts-avatar">
+            <img src="https://ui-avatars.com/api/?name=K&background=F17300&color=054a91" alt="initials for Kirpal" />
+          </div>
+          <div class="contacts-content">
+            <p>Web Developer <br>
+              <a href="https://github.com/kirpalseehra" class="contacts-links"> github.com/kirpalseehra</a></p>
+            <p><button type="button" class="btn btn-warning">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 contacts-row-two">
+        <div class="contacts-card">
+          <div class="contacts-avatar">
+            <img src="https://ui-avatars.com/api/?name=O&background=F17300&color=054a91" alt="initials for Orhun" />
+          </div>
+          <div class="contacts-content">
+            <p>Web Developer <br><a href="https://github.com/omustafa1994" class="contacts-links">
+                github.com/omustafa1994</a></p>
+            <p><button type="button" class="btn btn-warning">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- spacing for contacts -->
+  <div class="row">
+    <div class="col-sm-12 contacts-row-two"></div>
+  </div>
+  <!-- contact details row 2 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 contacts-row-three">
+        <div class="contacts-card">
+          <div class="contacts-avatar">
+            <img src="https://ui-avatars.com/api/?name=T&background=F17300&color=054a91" alt="initials for thomas" />
+          </div>
+          <div class="contacts-content">
+            <p>Web Developer <br><a href="https://github.com/Impey" class="contacts-links">
+                github.com/Impey</a></p>
+            <p><button type="button" class="btn btn-warning">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 contacts-row-three">
+        <div class="contacts-card">
+          <div class="contacts-avatar">
+            <img src="https://ui-avatars.com/api/?name=A&background=F17300&color=054a91" alt="initials for arnold" />
+          </div>
+          <div class="contacts-content">
+            <p>Web Developer <br><a href="https://github.com/ArnieEC" class="contacts-links">
+                github.com/ArnieEC</a></p>
+            <p><button type="button" class="btn btn-warning">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 contacts-row-three">
+        <div class="contacts-card">
+          <div class="contacts-avatar">
+            <img src="https://ui-avatars.com/api/?name=M&background=F17300&color=054a91" alt="initials for mimi" />
+          </div>
+          <div class="contacts-content">
+            <p>Web Developer <br>
+              More description here</p>
+            <p><button type="button" class="btn btn-warning">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- forms to contact us -->
+  <div class="container-fluid">
+    <div class="row contacts-row-four">
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-2">
+        <section class="contacts-us">
+          <!-- Section id-->
+          <div class="container">
+            <div class="row contacts-row-four">
+              <div class="col-sm-4 ">
+              </div>
+              <div class="col-sm-4">
+                <div class="contact-block">
+                  <div class="contacts-headingstyle-one dart-mb-20">
+                    <!--Style 1-->
+                    <h2 class="contacts-heading">Request a callback</h2>
+                  </div>
+
+                  <div class="contacts-form">
+                    <!-- contact form -->
+                    <form class="row" action="send_email.php" id="contact" name="contact" method="post">
+                      <div class="form-group col-md-6">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Name"
+                          required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Your Email"
+                          required>
+                      </div>
+                      <div class="form-group col-md-12">
+                        <input type="text" class="form-control" name="InputWeb" id="InputWeb" placeholder="Reference number (Optional)">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <textarea class="form-control" name="InputMessage" id="InputMessage" rows="4" placeholder="Message"
+                          required></textarea>
+                      </div>
+                      <div class="col-md-12">
+
+                        <a href="mailto:someone@example.com?Subject=Hello%20again"><button name="submit" type="submit"
+                            class="btn contacts-normal-btn dart-btn-xs">SEND
+                            MESSAGE</button></a>
+                      </div>
+                    </form>
+                  </div>
+
+                  <hr>
+
+                </div>
+              </div>
+              <div class="col-sm-4 ">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-9 col-lg-offset">
+      </div>
+
+
+</body>
+
+</html>

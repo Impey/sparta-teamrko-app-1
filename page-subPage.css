@@ -1,0 +1,175 @@
+li a{
+  color: #dbe4ee;
+  }
+   
+  .dropdown li a{
+  color: #dbe4ee;
+  }
+   
+  .navbar-brand {
+  color: #dbe4ee
+  }
+   
+  .navbar-brand:hover {
+  color: #f17300;
+  }
+
+
+  .navbar-nav-right{
+    color: #dbe4ee;
+    background-color: #054a91;
+
+  }
+
+  .navbar-nav-right:hover {
+    color: #f17300;
+    background-color: #054a91;
+    }
+
+
+ * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: flex;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.page-subPage-container {
+  padding: 16px;
+  background-color:#dbe4ee;
+
+}
+
+/* Clear floats */
+.page-subPage-clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four columns of equal width */
+.columns {
+  float: left;
+  width: 25%;
+  padding: 8px;
+}
+
+.page-subPage-pricing {
+
+
+  padding: 16px;
+  border:  2px solid #054a91;
+
+
+} 
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 #054a91;
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #054a91;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  color: #054a91;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #dbe4ee;
+  font-size: 20px;
+
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #dbe4ee;
+  border: none;
+  color: #054a91;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100% 
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+      width: 100%;
+  }
+}

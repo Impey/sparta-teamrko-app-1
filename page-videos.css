@@ -1,3 +1,5 @@
+
+
 /* NAVBAR */
 li a.page-action{
   color: #dbe4ee;
@@ -17,7 +19,7 @@ li a.page-action{
 
 /* ALL PAGES */
 
-  body .action-page {
+  body {
     background-color: #81a4cd;
     color: #dbe4ee;
   }
