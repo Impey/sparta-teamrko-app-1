@@ -1,0 +1,81 @@
+body {
+  background-color: #81A4CD;
+}
+
+li a{
+  color: #dbe4ee;
+  }
+   
+  .dropdown li a{
+  color: #dbe4ee;
+  }
+   
+  .navbar-brand {
+  color: #dbe4ee
+  }
+   
+  .navbar-brand:hover {
+  color: #f17300;
+  }
+
+  .contacts-headers{
+    text-align: center;
+  }
+  .contacts-card {
+    overflow: hidden;
+    position: relative;
+    border: 3px solid #f17300;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    background-color: #284c79; /* new blue tint added here*/
+    color: rgb(136, 172, 217);
+  }
+ 
+  .contacts-avatar img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid #3e7cb1ff;
+  }
+  .contacts-row-four{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contacts-avatar {
+    position: relative;
+    margin-top: 15px;
+    z-index: 100;
+  }
+
+  /* this css function isnt working you can delete in the merger */
+ .contacts-links .contacts-links:hover{
+    color: red;
+    text-decoration: aliceblue;
+  }
+
+  .contacts-btn-default .btn {
+    background: #284c79;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+  }
+
+
+    .contacts-normal-btn {
+    display: flex;  
+    justify-content: center;
+    background: #284c79 none repeat scroll 0 0;
+    border-width: 2px;
+    border-color: #C9B79C;
+    border-style:inset;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color:  #C9B79C;
+    }
