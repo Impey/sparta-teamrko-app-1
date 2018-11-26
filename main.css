@@ -1,6 +1,23 @@
-/* Video PAGES */
+/* NAVBAR */
+li a.page-action{
+  color: #dbe4ee;
+  }
+   
+  .page-action-dropdown li a{
+  color: #dbe4ee;
+  }
+   
+  .page-action-navbar-brand {
+  color: #dbe4ee
+  }
+   
+  .page-action-navbar-brand:hover {
+  color: #f17300;
+  }
 
-  body {
+/* ALL PAGES */
+
+  body .action-page {
     background-color: #81a4cd;
     color: #dbe4ee;
   }
