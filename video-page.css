@@ -1,0 +1,83 @@
+/* NAVBAR */
+li a.page-action{
+  color: #dbe4ee;
+  }
+   
+  .page-action-dropdown li a{
+  color: #dbe4ee;
+  }
+   
+  .page-action-navbar-brand {
+  color: #dbe4ee
+  }
+   
+  .page-action-navbar-brand:hover {
+  color: #f17300;
+  }
+
+/* ALL PAGES */
+
+  body .action-page {
+    background-color: #81a4cd;
+    color: #dbe4ee;
+  }
+
+  h1.page-action {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #f17300;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  h1.page-comedy {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #f17300;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  h1.page-horror {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #f17300;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .action-button {
+    margin-left: 10px;
+    background-color: #054a91;  
+    color: #81a4cd;
+    padding: 15px;
+    border-width: 0px;
+  }
+
+  .page-action-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .page-action-video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .page-action-titleimg:hover{
+    transform: scale(1.5);
+  }
+
+  h2.page-action {
+    color: #f17300;
+  }
+
+  p.page-action {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    color: #dbe4ee;
+  }
