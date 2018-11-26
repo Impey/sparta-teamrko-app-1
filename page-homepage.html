@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Intro to Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="page-homepage.css" />
+
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <!-- PAGE HOMEPAGE NAVBAR -->
+  <nav class="navbar navbar-light" style="background-color: #054a91;">
+    <div class=" container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><strong>Team RKO</strong></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <!--To add content on left of nav bar add here-->
+
+        <!--To add content on right of nav bar add here-->
+        <ul class="nav navbar-nav navbar-right">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <!--Anything you want added to drop down meun add here abovve the divider class-->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opitions<span
+                class="caret"></span></a>
+            <ul class="dropdown-menu" style="background-color:#054a91">
+              <li><a href="#">Genres</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Sign out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- PAGE HOMEPAGE TITLES: ACTION -->
+  <div>
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-one"></div>
+    </div>
+
+    <!-- link to action page -->
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-two col-lg-offset-1">
+        <h3>Results for: <a href="page-action.html">Action</a></h3>
+      </div>
+    </div>
+
+    <div class="container page-homepage-row-three">
+      <div id="myCarousel-action" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="carousel-one">
+              <img src="assets/action1.jpg" class="grow">
+              <img src="assets/action2.jpg" class="grow">
+              <img src="assets/action3.jpg" class="grow">
+              <img src="assets/action4.jpg" class="grow">
+              <img src="assets/action5.jpg" class="grow">
+              <img src="assets/action6.jpg" class="grow">
+              <img src="assets/action7.jpg" class="grow">
+              <!-- <div class="carousel-caption">
+              </div> -->
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-one">
+              <img src="assets/action8.jpg" class="grow">
+              <img src="assets/action9.jpg" class="grow">
+              <img src="assets/action10.jpg" class="grow">
+              <img src="assets/action11.jpg" class="grow">
+              <img src="assets/action12.jpg" class="grow">
+              <img src="assets/action13.jpg" class="grow">
+              <img src="assets/action14.jpg" class="grow">
+              <!-- <div class="carousel-caption">
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- controls -->
+        <a class="left carousel-control" href="#myCarousel-action" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-action" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE HOMEPAGE TITLES: COMEDY -->
+  <div>
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-one"></div>
+    </div>
+
+    <!-- link to comedy page -->
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-two col-lg-offset-1">
+        <h3>Results for: <a href="page-comedy.html">Comedy</a></h3>
+      </div>
+    </div>
+
+    <div class="container page-homepage-row-three">
+      <div id="myCarousel-comedy" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="carousel-one">
+              <img src="assets/comedy1.jpg" class="grow">
+              <img src="assets/comedy2.jpg" class="grow">
+              <img src="assets/comedy3.jpg" class="grow">
+              <img src="assets/comedy4.jpg" class="grow">
+              <img src="assets/comedy5.jpg" class="grow">
+              <img src="assets/comedy6.jpg" class="grow">
+              <img src="assets/comedy7.jpg" class="grow">
+              <!-- <div class="carousel-caption">
+              </div> -->
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-one">
+              <img src="assets/comedy8.jpg" class="grow">
+              <img src="assets/comedy9.jpg" class="grow">
+              <img src="assets/comedy10.jpg" class="grow">
+              <img src="assets/comedy11.jpg" class="grow">
+              <img src="assets/comedy12.jpg" class="grow">
+              <img src="assets/comedy13.jpg" class="grow">
+              <img src="assets/comedy14.jpg" class="grow">
+              <!-- <div class="carousel-caption">
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- controls -->
+        <a class="left carousel-control" href="#myCarousel-comedy" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-comedy" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE HOMEPAGE TITLES: HORROR -->
+  <div>
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-one"></div>
+    </div>
+
+    <!-- link to horror page -->
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-two col-lg-offset-1">
+        <h3>Results for: <a href="page-horror.html">Horror</a></h3>
+      </div>
+    </div>
+
+    <div class="container page-homepage-row-three">
+      <div id="myCarousel-horror" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="carousel-one">
+              <img src="assets/horror1.jpg" class="grow">
+              <img src="assets/horror2.jpg" class="grow">
+              <img src="assets/horror3.jpg" class="grow">
+              <img src="assets/horror4.jpg" class="grow">
+              <img src="assets/horror5.jpg" class="grow">
+              <img src="assets/horror6.jpg" class="grow">
+              <img src="assets/horror7.jpg" class="grow">
+              <!-- <div class="carousel-caption">
+              </div> -->
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-one">
+              <img src="assets/horror8.jpg" class="grow">
+              <img src="assets/horror9.jpg" class="grow">
+              <img src="assets/horror10.jpg" class="grow">
+              <img src="assets/horror11.jpg" class="grow">
+              <img src="assets/horror12.jpg" class="grow">
+              <img src="assets/horror13.jpg" class="grow">
+              <img src="assets/horror14.jpg" class="grow">
+              <!-- <div class="carousel-caption">
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- controls -->
+        <a class="left carousel-control" href="#myCarousel-horror" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-horror" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- extra row -->
+  <div>
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-one"></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="row">
+      <div class="col-lg-12 page-homepage-row-one"></div>
+    </div>
+  </div>
+
+  <!-- PAGE HOMEPAGE FOOTER -->
+  <div class="row page-homepage-footer">
+    <div>
+      <div class="row">
+        <div class="col-lg-12 page-homepage-row-four"></div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-lg-offset-4"></div>
+    <div class="col-lg-4 col-lg-offset-4">
+      <p class="row-six-last-text"><b>Watch Movies Online</b></p>
+    </div>
+    <div class="col-lg-4 col-lg-offset-4">
+      <p class="row-six-last-text"> © 2018 TeamRKO. All Rights Reserved</p>
+    </div>
+
+    <div>
+      <div class="row">
+        <div class="col-lg-12 page-homepage-row-five"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
