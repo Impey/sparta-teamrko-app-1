@@ -79,3 +79,16 @@ li a{
     text-transform: uppercase;
     color:  #C9B79C;
     }
+
+    .page-accounts-row-two{
+      height: 125px;
+    }
+    .page-homepage-row-one {
+      height: 50px;
+    }
+
+    /* footer properties */
+.page-accounts-footer {
+  text-align: center;
+  background-color: #f17300;
+}
